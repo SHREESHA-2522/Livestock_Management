@@ -1,0 +1,193 @@
+.container {
+  margin-left: 28vw;
+  display: flex;
+}
+body{
+  margin: 0;
+}
+.homepage-home-button{
+  cursor: pointer;
+}
+button {
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #333;
+}
+.btn-logout{
+  width: 50%;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 25vw;
+  flex: 1;
+  display: flex;
+  position: fixed;
+  gap: 10px;
+  flex-direction: column;
+  background-color: rgba(186, 183, 183, 0.695);
+  padding: 20px;
+  /* animation: colorChangee 5s infinite; */
+  transition: transform 0.3s ease-in-out;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes colorChangee {
+  0%,
+  100% {
+    background-color: #ffffff;
+  }
+  50% {
+    background-color: #848484;
+  }
+}
+
+.content {
+  align-items: center;
+  flex: 3;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  height: 1000px;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  height: 50px;
+  margin-bottom: 5px;
+  background-color: rgb(169, 166, 166);
+  border-radius: 10px;
+  border: 1px solid black;
+  align-items: center;
+}
+
+a {
+  color: rgb(6, 6, 6);
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.about-us-box {
+  padding: 40px;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #d6cdcd;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 1.3em; /* Adjust the font size as needed */
+  font-family: "Courier New", Courier, monospace;
+}
+
+.about-us-box h2 {
+  color: rgb(49, 46, 46);
+  margin-bottom: 10px;
+  font-size: larger;
+}
+
+.about-us-box p {
+  color: #666;
+  line-height: 1.5;
+}
+
+.btn {
+  width: 350px;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+/* AdminNotifications.css */
+.notifications-container {
+  margin-top: 2px;
+}
+
+.notifications-heading {
+  font-size: 1.5rem;
+  margin-bottom: 1px;
+}
+
+.notification-item {
+  border: #333;
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: #a8a8a8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-abt {
+  margin-bottom: 500px;
+}
+
+/* .about-us-box {
+  width: 700px;
+  height: 500px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px;
+} */
+
+.about-us-box h2 {
+  margin-top: 0;
+  color: #000000;
+}
+
+.about-us-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us-box label {
+  margin-top: 1px;
+}
+
+.about-us-box input,
+.about-us-box textarea {
+  padding: 10px;
+  margin-top: 1px;
+  width: 500px;
+}
+
+.about-us-box button {
+  width: 100px;
+  margin-left: 200px;
+  margin-top: 10px;
+  /* padding: 5px 10px; */
+  background-color: #333;
+  color: rgb(9, 8, 8);
+  border: none;
+  cursor: pointer;
+}
+
+.about-us-box button:hover {
+  background-color: #555;
+}
+
+
+
+
